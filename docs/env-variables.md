@@ -52,7 +52,7 @@ except KeyError:
     sys.exit(1)
 ```
 
-![Alt text](assets/env_output.png)
+![Alt text](assets/env-output.png)
 
 ```bash
 $ python env_example.py

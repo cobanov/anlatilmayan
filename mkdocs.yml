@@ -1,9 +1,9 @@
 site_name: anlatilmayan
 site_url: https://cobanov.dev/
 nav:
-  - 1. Environment Variables: env-variables.md
-  - 2. Code Formatting: code-formatting.md
-  - 3. tmux: tmux.md
+  - 1. tmux: tmux.md
+  - 2. Environment Variables: env-variables.md
+  - 3. Code Formatting: code-formatting.md
   - 4. YAML: yaml.md
   - 5. VIM: vim.md
   - 6. SSH: ssh.md
@@ -13,8 +13,8 @@ nav:
   - 10. API: api.md
   - 11. Docker: docker.md
   - 12. Docker Compose: docker-compose.md
-  - 13. Development Environment: development-env.md
-  - 14. VSCode extenstions: vscode-extensions.md
+  - 13. Development Environment: dev-env.md
+  - 14. VSCode extenstions: vscode-ext.md
   - 15. __getitem__: getitem.md
   - 16. mkdocs: mkdocs.md
   - 17. regex: regex.md
