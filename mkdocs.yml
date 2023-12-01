@@ -1,5 +1,5 @@
 site_name: anlatilmayan
-site_url: https://example.com/
+site_url: https://cobanov.dev/
 nav:
   - 1. Environment Variables: tr/env-variables.md
   - 2. Code Formatting: tr/code-formatting.md
