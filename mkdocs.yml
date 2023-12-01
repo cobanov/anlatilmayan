@@ -74,8 +74,8 @@ plugins:
       draggable: true
       skip_classes:
         - custom-skip-class-name
-      auto_caption: true
-      caption_position: bottom
+      # auto_caption: true
+      # caption_position: bottom
   # - git-authors
   # - git-revision-date-localized:
   # enable_creation_date: true
@@ -101,19 +101,19 @@ extra:
     provider: google
     property: G-XXXXXXXXXX
 
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback!
+    # feedback:
+    #   title: Was this page helpful?
+    #   ratings:
+    #     - icon: material/emoticon-happy-outline
+    #       name: This page was helpful
+    #       data: 1
+    #       note: >-
+    #         Thanks for your feedback!
+    #     - icon: material/emoticon-sad-outline
+    #       name: This page could be improved
+    #       data: 0
+    #       note: >-
+    #         Thanks for your feedback!
 
 markdown_extensions:
   - footnotes
@@ -147,6 +147,6 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-repo_url: https://github.com/cobanov/paul-graham-turkce
-repo_name: cobanov/anlatilmayanlar
+repo_url: https://github.com/cobanov/anlatilmayan
+repo_name: cobanov/anlatilmayan
 copyright: Copyright &copy; 2022 - 2023 Mert Cobanov
