@@ -1,0 +1,157 @@
+site_name: anlatilmayan
+site_url: https://example.com/
+nav:
+  - 1. Environment Variables: tr/env-variables.md
+  - 2. Code Formatting: tr/code-formatting.md
+  - 3. tmux: tr/tmux.md
+  - 4. YAML: tr/yaml.md
+  - 5. VIM: tr/vim.md
+  - 6. SSH: tr/ssh.md
+  - 7. Documentation: tr/documentation.md
+  - 8. Command Line Tool: tr/cli.md
+  - 9. Pre Commit Hook: tr/pre-commit-hook.md
+  - 10. API: tr/api.md
+  - 11. Docker: tr/docker.md
+  - 12. Docker Compose: tr/docker-compose.md
+  - 13. Development Environment: tr/development-env.md
+  - 14. VSCode extenstions: tr/vscode-extensions.md
+  - 15. __getitem__: tr/getitem.md
+  - 16. mkdocs: tr/mkdocs.md
+  - 17. regex: tr/regex.md
+
+theme:
+  # logo: assets/env_output.png
+  favicon: images/env_output.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    top: fontawesome/solid/angle-up
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil
+    view: material/eye
+  name: material
+  font:
+    text: Roboto Slab
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - navigation.path
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.footer
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: black
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+plugins:
+  - search
+  - offline
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: true
+      caption_position: bottom
+  # - git-authors
+  # - git-revision-date-localized:
+  # enable_creation_date: true
+  # type: date
+  # - social #! update
+extra:
+  generator: false
+  alternate:
+    - name: Türkçe
+      link: /tr/
+      lang: tr
+    - name: English
+      link: /en/
+      lang: en
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cobanov
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mertcobanov
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/mertcobanov
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/mertcobanov
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/mertcobanoglu
+    - icon: fontawesome/solid/envelope
+      link: mailto:mertcobanov@gmail.com
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback!
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - pymdownx.snippets
+  - abbr
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+      auto_title: true
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+repo_url: https://github.com/cobanov/paul-graham-turkce
+repo_name: cobanov/anlatilmayanlar
+copyright: Copyright &copy; 2022 - 2023 Mert Cobanov
